@@ -1,9 +1,6 @@
 while True:
     print("welcome to my program \n")
-    choice = input("""press (a) to claculate your age \n 
-      press (b) to know your birth year \n
-
-    """)
+    choice = input("""press (a) to claculate your age or press (b) to know your birth year \n)
 
     if choice == "a":
       year_born = input("enter in which year you were born : ")
